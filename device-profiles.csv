@@ -1,0 +1,220 @@
+# Device vendors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# (device_vendor),Operator ID,ID,Name,Scope,Logo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# (localization),,,Language tag,Description,Description,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},foxconn,Foxconn,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,Customer friendly description,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},generic,Generic,"TPE, TPO",logo/vendors/loraWAN.jpeg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,Contains all generic profiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},semtech,Semtech,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,Semtech devices,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},watteco/nke,Watteco/NKE,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},adeunisrf,Adeunis RF,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},finsecur,Finsecur,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},senlab,Sensing Labs,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},multitech,Multitech,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},flashnet,Flashnet,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},globalsat,GlobalSat,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_VENDOR,${OPE-ID},solvera,Solvera Lynx,"TPE, TPO",xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOCALIZATION,,,en-US,xxx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Device profiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# (device_profile),Operator ID,ID,Type,Perm. Listening,Type MAC,Major Ver.,Minor Ver.,RX Delay1,RX Delay2,"Motion 
+Model Ind","Product 
+name","Product 
+version",RX1DRoffset,RX2DataRate,RX2Freq,MaxDutyCycle,"LinkADR
+ReqSupport","DevStatus
+ReqSupport","Join
+ReqSupport",DutyCycle ReqSupport,LinkCheck ReqSupport,RxParamSetup ReqSupport,RxTimingSetup ReqSupport,NewChannel ReqSupport,DlChannel ReqSupport,TxParamSetup ReqSupport,BeaconFreqReqSupport,PingSlotChannel ReqSupport,"macJoin
+Delay1","macJoin
+Delay2",macJoin Timeout,"macMin
+TxPower","macMax
+TxPower","macMin
+xEIRP","macMax
+TxEIRP",PingSlotChannel DataRate,Beacon Frequency,PingSlot ChannelFrequency,macMax NbTrans,asynchronous  ULprocessing,minRx1Delay,ISM band,Vendor ID,Scope,Logo
+# (localization),,,Language tag,Model,Description,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericA.1_ETSI_Rx2-SF9,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,3,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,generic,"TPE,TPO",logo/devices/lorawanA.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class A - Rx2_SF9,Generic profile LoRaWAN 1.0 for ETSI class A devices with Rx2 set to SF9 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericA.1_ETSI_Rx2-SF12,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,generic,"TPE,TPO",logo/devices/lorawanA.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class A - Rx2_SF12,Generic profile LoRaWAN 1.0 for ETSI class A devices with Rx2 set to SF12 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericA.1_FCC_Rx2-SF9,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,11,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,"us915,au915",generic,"TPE,TPO",logo/devices/lorawanA.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class A - Rx2_SF9,Generic profile LoRaWAN 1.0 for FCC class A devices with Rx2 set to SF9 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericA.1_FCC_Rx2-SF12,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,"us915,au915",generic,"TPE,TPO",logo/devices/lorawanA.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class A - Rx2_SF12,Generic profile LoRaWAN 1.0 for FCC class A devices with Rx2 set to SF12 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericC.1_ETSI_Rx2-SF9,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,3,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,generic,"TPE,TPO",logo/devices/lorawanC.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class C - Rx2_SF9,Generic profile LoRaWAN 1.0 for ETSI class C devices with Rx2 set to SF9 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericC.1_ETSI_Rx2-SF12,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,generic,"TPE,TPO",logo/devices/lorawanC.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class C - Rx2_SF12,Generic profile LoRaWAN 1.0 for ETSI class C devices with Rx2 set to SF12 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericC.1_FCC_Rx2-SF9,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,11,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,"us915,au915",generic,"TPE,TPO",logo/devices/lorawanC.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class C - Rx2_SF9,Generic profile LoRaWAN 1.0 for FCC class C devices with Rx2 set to SF9 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericC.1_FCC_Rx2-SF12,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,LORA/Generic,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,"us915,au915",generic,"TPE,TPO",logo/devices/lorawanC.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0 - class C - Rx2_SF12,Generic profile LoRaWAN 1.0 for FCC class C devices with Rx2 set to SF12 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericA.1_AS923_Rx2-SF10,A,FALSE,LoRaMAC,0,4,1000,2000,RANDOM,LORA/Generic,1,,2,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,generic,"TPE,TPO",logo/devices/lorawanA.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0.2 - class A - Rx2_SF10,Generic profile LoRaWAN 1.0.2 for AS923 class A devices with Rx2 set to SF10 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericC.1_AS923_Rx2-SF10,C,FALSE,LoRaMAC,0,4,1000,2000,RANDOM,LORA/Generic,1,,2,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,generic,"TPE,TPO",logo/devices/lorawanC.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0.2 - class C - Rx2_SF10,Generic profile LoRaWAN 1.0.2 for AS923 class C devices with Rx2 set to SF10 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericA.1_KR920_Rx2-SF12,A,FALSE,LoRaMAC,0,4,1000,2000,RANDOM,LORA/Generic,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,generic,"TPE,TPO",logo/devices/lorawanA.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0.2 - class A - Rx2_SF12,Generic profile LoRaWAN 1.0.2 for KR9230class A devices with Rx2 set to SF12 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},LORA/GenericC.1_KR920_Rx2-SF12,C,FALSE,LoRaMAC,0,4,1000,2000,RANDOM,LORA/Generic,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,generic,"TPE,TPO",logo/devices/lorawanC.jpg
+LOCALIZATION,,,en-US,LoRaWAN 1.0.2 - class C - Rx2_SF12,Generic profile LoRaWAN 1.0.2 for KR920 class C devices with Rx2 set to SF12 at boot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},SMTC/LoRaMoteA.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,SMTC/LoRaMote,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,generic,"TPE,TPO",logo/devices/smtc_loramoteA.png
+LOCALIZATION,,,en-US,LoRaMote EU fw4 - class A,LoRaMote EU fw4 - classA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},SMTC/LoRaMoteC.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,SMTC/LoRaMote,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,generic,"TPE,TPO",logo/devices/smtc_loramoteC.png
+LOCALIZATION,,,en-US,LoRaMote EU fw4 - class C,LoRaMote EU fw4 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericA.3.2_EU,A,FALSE,WattecoMAC_3.2,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,1,,3,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.2 - Generic - class A (deprecated),"Watteco-NKE firmware 3.2, class A (deprecated)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericC.3.2_EU,A,TRUE,WattecoMAC_3.2,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,1,,3,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.2 - Generic - class C (deprecated),"Watteco-NKE firmware 3.2, class C (permently listening) (deprecated)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericA.3.2_US,A,FALSE,WattecoMAC_3.2,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.2 - Generic - class A (deprecated),"Watteco-NKE firmware 3.2, class A (deprecated)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericC.3.2_US,A,TRUE,WattecoMAC_3.2,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.2 - Generic - class C (deprecated),"Watteco-NKE firmware 3.2, class C (permently listening) (deprecated)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericA.3.4_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,2,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.4 - Generic - class A,"Watteco-NKE firmware 3.4, class A",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericC.3.4_EU,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,2,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.4 - Generic - class C,"Watteco-NKE firmware 3.4, class C",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericA.3.4_US,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,2,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.4 - Generic - class A,"Watteco-NKE firmware 3.2, class A",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},WECO/GenericC.3.4_US,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,Zigbee/Gen,2,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,watteco/nke,"TPE,TPO",logo/devices/nke-generic.png
+LOCALIZATION,,,en-US,Watteco fw 3.4 - Generic - class C,"Watteco-NKE firmware 3.2, class C",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ADRF/DemonstratorA.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,ADRF/DEMO,1,,3,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,adeunisrf,"TPE,TPO",logo/devices/adrf_demo.png
+LOCALIZATION,,,en-US,Demonstrator,LoRaWAN Demonstrator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ADRF/FielTestDeviceA.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,ADRF/DEMO,2,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,adeunisrf,"TPE,TPO",logo/devices/adrf_ftd_v2.png
+LOCALIZATION,,,en-US,Field Test Device - class A,Field Test Device - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ADRF/FielTestDeviceC.1_EU,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,ADRF/DEMO,2,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,adeunisrf,"TPE,TPO",logo/devices/adrf_ftd_v2.png
+LOCALIZATION,,,en-US,Field Test Device - class C,Field Test Device - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ADRF/FielTestDeviceA.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,ADRF/DEMO,2,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,us915,adeunisrf,"TPE,TPO",logo/devices/adrf_ftd_v2_915_face.png
+LOCALIZATION,,,en-US,Field Test Device - class A,Field Test Device - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ADRF/FielTestDeviceC.1_US,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,ADRF/DEMO,2,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,us915,adeunisrf,"TPE,TPO",logo/devices/adrf_ftd_v2_915_face.png
+LOCALIZATION,,,en-US,Field Test Device - class C,Field Test Device - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ADRF/SensorsA.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,ADRF/SENSOR,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,adeunisrf,"TPE,TPO",logo/devices/adrf_sensor.jpg
+LOCALIZATION,,,en-US,Generic Sensors - class A,Generic Sensors - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ISECUR/CalypsoA.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,ISECUR/CLPSO,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,finsecur,"TPE,TPO",logo/devices/isecur_calypso.jpg
+LOCALIZATION,,,en-US,Calypso,Smoke detector,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},ISECUR/CalypsoA.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,ISECUR/CLPSO,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,finsecur,"TPE,TPO",logo/devices/isecur_calypso.jpg
+LOCALIZATION,,,en-US,Calypso,Smoke detector,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},SLABS/SenlabAB.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,SLABS/GEN,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,senlab,"TPE,TPO",logo/devices/slabs_senlab.png
+LOCALIZATION,,,en-US,Generic Senlab - class A,Generic Senlab - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},MT/mdotboxA.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,MT/MDTBX,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,20,,20,,,,,,,us915,multitech,"TPE,TPO",logo/devices/mt_mdotbox.png
+LOCALIZATION,,,en-US,mDot Box - class A,MultitechConnect mDot Box US - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},FHNT/FRE-220.1_EU,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,FHNT/FRE-220,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,flashnet,"TPE,TPO",logo/devices/fhnt_fre-220.png
+LOCALIZATION,,,en-US,FRE-220,FRE-220,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},FHNT/FRE-220.1_US,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,FHNT/FRE-220,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,flashnet,"TPE,TPO",logo/devices/fhnt_fre-220.png
+LOCALIZATION,,,en-US,FRE-220,FRE-220,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},FOXCONN/ZB11A.1_AS,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,FXCN/ZB11A,1,,2,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,foxconn,"TPE,TPO",logo/devices/Foxconn_infrared_motion_ZB11A.png
+LOCALIZATION,,,en-US,Infrared Motion Sensor - ZB11A,Infrared Motion Sensor - ZB11A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},FOXCONN/Z311G.1_AS,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,FXCN/Z311G,1,,2,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,foxconn,"TPE,TPO",logo/devices/Foxconn_light_sensor_Z311G.png
+LOCALIZATION,,,en-US,Light Sensor - Z311G,Light Sensor - Z311G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},FOXCONN/Z716A.1_AS,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,FXCN/Z716A,1,,2,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,as923,foxconn,"TPE,TPO",logo/devices/Foxconn_temp_humidity_Z716A.png
+LOCALIZATION,,,en-US,Temp Humidity - Z716A,Temp Humidity - Z716A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LT-100E_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,GLBSAT/LT100,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_gps_tracker_lt-100e.png
+LOCALIZATION,,,en-US,GPS Tracker - LT-100E - class A,GPS Tracker - LT-100E - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LT-100E_C.1_EU,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,GLBSAT/LT100,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_gps_tracker_lt-100e.png
+LOCALIZATION,,,en-US,GPS Tracker - LT-100E - class C,GPS Tracker - LT-100E - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LT-100H_A.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,GLBSAT/LT100,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_gps_tracker_lt-100e.png
+LOCALIZATION,,,en-US,GPS Tracker - LT-100E - class A,GPS Tracker - LT-100E - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LT-100H_C.1_US,C,FALSE,LoRaMAC,0,3,1000,2000,RANDOM,GLBSAT/LT100,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_gps_tracker_lt-100e.png
+LOCALIZATION,,,en-US,GPS Tracker - LT-100E - class C,GPS Tracker - LT-100E - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-111_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_CO2_LS-111.png
+LOCALIZATION,,,en-US,CO2 Temp Humidity - LS-111 - class A,CO2 Temp Humidity - LS-111 - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-111_C.1_EU,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_CO2_LS-111.png
+LOCALIZATION,,,en-US,CO2 Temp Humidity - LS-111 - class C,CO2 Temp Humidity - LS-111 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-111_A.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_CO2_LS-111.png
+LOCALIZATION,,,en-US,CO2 Temp Humidity - LS-111 - class A,CO2 Temp Humidity - LS-111 - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-111_C.1_US,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_CO2_LS-111.png
+LOCALIZATION,,,en-US,CO2 Temp Humidity - LS-111 - class C,CO2 Temp Humidity - LS-111 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-112_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_CO_LS-112.png
+LOCALIZATION,,,en-US,CO Temp Humidity - LS-112 - class A,CO Temp Humidity - LS-112 - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-112_C.1_EU,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_CO_LS-112.png
+LOCALIZATION,,,en-US,CO Temp Humidity - LS-112 - class C,CO2 Temp Humidity - LS-111 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-112_A.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_CO_LS-112.png
+LOCALIZATION,,,en-US,CO Temp Humidity - LS-112 - class A,CO Temp Humidity - LS-112 - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-112_C.1_US,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_CO_LS-112.png
+LOCALIZATION,,,en-US,CO Temp Humidity - LS-112 - class C,CO Temp Humidity - LS-112 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-113_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_PM2.5_LS-113.png
+LOCALIZATION,,,en-US,PM2.5 Temp Humidity - LS-113 - class A,PM2.5 Temp Humidity - LS-113 - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-113_C.1_EU,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,globalsat,"TPE,TPO",logo/devices/globalsat_PM2.5_LS-113.png
+LOCALIZATION,,,en-US,PM2.5 Temp Humidity - LS-113 - class C,PM2.5 Temp Humidity - LS-113 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-113_A.1_US,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_PM2.5_LS-113.png
+LOCALIZATION,,,en-US,PM2.5 Temp Humidity - LS-113 - class A,PM2.5 Temp Humidity - LS-113 - class A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},GLBSAT/LS-113_C.1_US,C,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,GLBSAT/LS111,1,,8,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,us915,globalsat,"TPE,TPO",logo/devices/globalsat_PM2.5_LS-113.png
+LOCALIZATION,,,en-US,PM2.5 Temp Humidity - LS-113 - class C,PM2.5 Temp Humidity - LS-113 - class C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},SLVRA/COMBOX-L_CI-B_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,SLVRA/CMBX_CIB,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,solvera,"TPE,TPO",logo/devices/solvera_lynx_combox_L.png
+LOCALIZATION,,,en-US,Combox L - CI-B,Combox L - CI-B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},SLVRA/COMBOX-L_CI-B_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,SLVRA/CMBX_CIB,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,solvera,"TPE,TPO",logo/devices/solvera_lynx_combox_L.png
+LOCALIZATION,,,en-US,Combox L - CI-B,Combox L - CI-B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEVICE_PROFILE,${OPE-ID},SLVRA/COMBOX-L_2T-B_A.1_EU,A,FALSE,LoRaMAC,0,3,1000,2000,NEAR_STATIC,SLVRA/CMBX_2TB,1,,0,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,5000,6000,,,14,,14,,,,,,,eu868,solvera,"TPE,TPO",logo/devices/solvera_lynx_combox_L.png
+LOCALIZATION,,,en-US,Combox L - DI-B,Combox L - DI-B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
